@@ -1,8 +1,6 @@
 # CampusFix
 
-A complaint-tracking platform for hostels, PGs, and shared residential spaces — built to go beyond basic CRUD with a self-flagging accountability feature.
-
-Most complaint trackers stop at "status: open." CampusFix automatically flags complaints that have gone unaddressed too long, so nothing silently sits unresolved.
+A complaint-tracking platform for hostels, PGs, and shared residential spaces. Residents report issues, admins manage resolution, and complaints left unaddressed for too long are automatically flagged for attention.
 
 ## Features
 
@@ -22,10 +20,3 @@ React (Vite) · Tailwind CSS · Node.js · Express · PostgreSQL · JWT · bcryp
 2. Create a PostgreSQL database named `campusfix` with `users` and `complaints` tables (schema in `/backend/db.js` and route files)
 3. Add a `.env` file in `backend/` with your database credentials
 4. Run `node server.js` in `backend/` and `npm run dev` in `frontend/`
-
-## Roadmap
-
-- Lost & found module
-- Per-category SLA configuration
-- Admin analytics dashboard
-- Real-time notifications
